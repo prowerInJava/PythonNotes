@@ -1,0 +1,31 @@
+# pyinstaller 打包文件
+node_modules/
+dist/
+build/
+
+# Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 环境变量文件
+.env
+.env.local
+
+# macOS 特有文件
+.DS_Store
+
+# Windows 特有文件
+Thumbs.db
